@@ -1,11 +1,11 @@
 body {
   background-color: #333;
-  zoom: 2;
+  zoom: .5;
   font-family: 'Luckiest Guy', cursive;
   font-size: 35px; }
-@media only screen and (max-width: 600px){
+@media only screen and (min-width: 600px){
   body {
-  zoom: .5;}
+  zoom: 2;}
 }
 
 path {
