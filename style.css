@@ -152,8 +152,6 @@ text {
     z-index: 11;
     margin-top: 22px;
     margin-left:5px;
-    transform-origin: 50% 50%;
-    animation: flicker 1s ease-in-out alternate infinite; 
   }
 
 @keyframes flicker {
