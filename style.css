@@ -122,7 +122,15 @@ text {
     height: 8px;
     border-radius: 50%;
     background-color: #ad030f; }
-
+.wick {
+  position: absolute;
+  background-color:black;
+  width: 1px;
+  height: 7px;
+  top: -2px; 
+  left: 90%;
+  margin-left: -7.5px;
+}
 .flame {
   position: absolute;
   background-color: orange;
@@ -136,6 +144,17 @@ text {
   box-shadow: 0 0 10px rgba(255, 165, 0, 0.5), 0 0 20px rgba(255, 165, 0, 0.5), 0 0 60px rgba(255, 165, 0, 0.5), 0 0 80px rgba(255, 165, 0, 0.5);
   transform-origin: 50% 90%;
   animation: flicker 1s ease-in-out alternate infinite; }
+  .inner{
+    width: 5px;
+    height: 10px;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px / 20px 20px 5px 5px;
+    z-index: 11;
+    margin-top: 22px;
+    margin-left:5px;
+    transform-origin: 50% 50%;
+    animation: flicker 1s ease-in-out alternate infinite; 
+  }
 
 @keyframes flicker {
   0% {
